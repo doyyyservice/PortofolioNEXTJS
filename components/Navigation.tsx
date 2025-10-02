@@ -1,3 +1,4 @@
+// components/Navigation.tsx
 import { Menu, X } from 'lucide-react';
 
 const Navigation = ({ currentPage, setCurrentPage, menuOpen, setMenuOpen }) => {
@@ -24,9 +25,11 @@ const Navigation = ({ currentPage, setCurrentPage, menuOpen, setMenuOpen }) => {
               <button
                 key={item.id}
                 onClick={() => setCurrentPage(item.id)}
-                className={\`transition-colors \${currentPage === item.id
-                  ? 'text-blue-600 font-semibold'
-                  : 'text-gray-600 hover:text-blue-600'}\`}
+                className={`transition-colors ${
+                  currentPage === item.id
+                    ? 'text-blue-600 font-semibold'
+                    : 'text-gray-600 hover:text-blue-600'
+                }`}
               >
                 {item.name}
               </button>
@@ -47,9 +50,11 @@ const Navigation = ({ currentPage, setCurrentPage, menuOpen, setMenuOpen }) => {
                   setCurrentPage(item.id);
                   setMenuOpen(false);
                 }}
-                className={\`block w-full text-left px-4 py-2 rounded-lg transition-colors \${currentPage === item.id
-                  ? 'bg-blue-50 text-blue-600 font-semibold'
-                  : 'text-gray-600 hover:bg-gray-50'}\`}
+                className={`block w-full text-left px-4 py-2 rounded-lg transition-colors ${
+                  currentPage === item.id
+                    ? 'bg-blue-50 text-blue-600 font-semibold'
+                    : 'text-gray-600 hover:bg-gray-50'
+                }`}
               >
                 {item.name}
               </button>
