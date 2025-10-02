@@ -1,12 +1,6 @@
-type SocialLinkProps = {
-  href: string
-  icon: any
-  title: string
-  subtitle?: string
-  bgColor: string
-}
+import { Github, Linkedin, Mail, Instagram, MessageCircle } from 'lucide-react'
 
-const SocialLink = ({ href, icon: Icon, title, subtitle, bgColor }: SocialLinkProps) => {
+const SocialLink = ({ href, icon: Icon, title, subtitle, bgColor }) => {
   return (
     <a
       href={href}
@@ -19,7 +13,7 @@ const SocialLink = ({ href, icon: Icon, title, subtitle, bgColor }: SocialLinkPr
       </div>
       <div>
         <h3 className="font-semibold text-lg">{title}</h3>
-        {subtitle && <p className="text-gray-600">{subtitle}</p>}
+        <p className="text-gray-600">{subtitle}</p>
       </div>
     </a>
   )

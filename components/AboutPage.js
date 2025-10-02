@@ -1,8 +1,8 @@
 const AboutPage = () => {
   const skills = [
     'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 
-    'Tailwind CSS', 'Git', 'Firebase'
-  ];
+    'Tailwind CSS', 'MongoDB', 'PostgreSQL', 'Git', 'REST APIs'
+  ]
 
   return (
     <div className="min-h-screen py-20 px-4">
@@ -10,8 +10,9 @@ const AboutPage = () => {
         <h2 className="text-4xl md:text-5xl font-bold mb-8">About Me</h2>
         <div className="space-y-6 text-gray-600 mb-12">
           <p className="text-lg leading-relaxed">
-            Hello! I'm a junior developer with a love for creating elegant solutions 
-            to complex problems.
+            Hello! I'm a passionate full-stack developer with a love for creating elegant solutions 
+            to complex problems. With several years of experience in web development, I specialize 
+            in building responsive, user-friendly applications that make a difference.
           </p>
           <p className="text-lg leading-relaxed">
             My journey in tech started with curiosity and has evolved into a career dedicated to 
@@ -37,9 +38,29 @@ const AboutPage = () => {
             ))}
           </div>
         </div>
+
+        <div>
+          <h3 className="text-2xl font-bold mb-6">Experience</h3>
+          <div className="space-y-6">
+            <div className="border-l-4 border-blue-600 pl-6 py-2">
+              <h4 className="text-xl font-semibold mb-2">Senior Full Stack Developer</h4>
+              <p className="text-gray-600 mb-2">Tech Company • 2022 - Present</p>
+              <p className="text-gray-500">
+                Leading development of enterprise applications and mentoring junior developers
+              </p>
+            </div>
+            <div className="border-l-4 border-purple-600 pl-6 py-2">
+              <h4 className="text-xl font-semibold mb-2">Full Stack Developer</h4>
+              <p className="text-gray-600 mb-2">Startup Inc • 2020 - 2022</p>
+              <p className="text-gray-500">
+                Built and maintained multiple web applications using modern frameworks
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutPage;
+export default AboutPage

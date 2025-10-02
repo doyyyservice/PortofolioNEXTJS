@@ -1,4 +1,4 @@
-import { Code2 } from 'lucide-react';
+import { Code2 } from 'lucide-react'
 
 const HomePage = ({ setCurrentPage }) => {
   return (
@@ -9,10 +9,10 @@ const HomePage = ({ setCurrentPage }) => {
             <Code2 className="w-12 h-12 text-white" />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Ridho Ramadhani (doy)
+            Your Name
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8">
-            Junior Developer
+            Full Stack Developer & Designer
           </p>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto mb-12">
             Crafting beautiful, functional digital experiences with modern web technologies
@@ -34,7 +34,7 @@ const HomePage = ({ setCurrentPage }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage

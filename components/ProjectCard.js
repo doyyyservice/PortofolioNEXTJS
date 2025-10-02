@@ -1,4 +1,4 @@
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react'
 
 const ProjectCard = ({ project }) => {
   return (
@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProjectCard;
+export default ProjectCard
