@@ -1,16 +1,16 @@
-import { MessageCircle } from 'lucide-react'
+import { MessageCircle, Mail, Instagram, Github, Linkedin } from 'lucide-react'
 import SocialLink from './SocialLink'
 
 const ConnectPage = () => {
-  const phoneNumber = '6281234567890' // Ganti dengan nomor WhatsApp Anda (format: kode negara + nomor tanpa +)
+  const phoneNumber = '6281234567890' // Ganti dengan nomor WhatsApp Anda
   const message = encodeURIComponent('Hello! I would like to discuss a project with you.')
 
   return (
     <div className="min-h-screen py-20 px-4">
       <div className="max-w-2xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold mb-4">Let's Connect</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-4">Let&apos;s Connect</h2>
         <p className="text-xl text-gray-600 mb-12">
-          Have a project in mind? Let's work together to bring your ideas to life
+          Have a project in mind? Let&apos;s work together to bring your ideas to life
         </p>
         
         <div className="space-y-6 mb-12">

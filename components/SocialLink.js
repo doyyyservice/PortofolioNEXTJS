@@ -1,5 +1,3 @@
-import { Github, Linkedin, Mail, Instagram, MessageCircle } from 'lucide-react'
-
 const SocialLink = ({ href, icon: Icon, title, subtitle, bgColor }) => {
   return (
     <a
