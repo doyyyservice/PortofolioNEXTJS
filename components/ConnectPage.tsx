@@ -19,6 +19,7 @@ const ConnectPage = () => {
             href={`https://wa.me/${phoneNumber}?text=${message}`}
             icon={MessageCircle}
             title="WhatsApp"
+            subtitle="+62 882-1114-0720"
             bgColor="bg-green-100 text-green-600"
           />
 
@@ -27,6 +28,7 @@ const ConnectPage = () => {
             href="mailto:ridho.rama976@gmail.com"
             icon={Mail}
             title="Email"
+            subtitle="ridho.rama976@gmail.com"
             bgColor="bg-blue-100 text-blue-600"
           />
 
@@ -43,6 +45,7 @@ const ConnectPage = () => {
             href="https://github.com/ddoyys"
             icon={Github}
             title="GitHub"
+            subtitle="@yddoyys"
             bgColor="bg-gray-100 text-gray-800"
           />
         </div>
